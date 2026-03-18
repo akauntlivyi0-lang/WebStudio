@@ -1,0 +1,14 @@
+/*a[span="Studio"]{color:rgb(0, 0, 0);}*/
+
+
+.blackcolor{color:rgb(0, 0, 0);}
+
+.button{
+          background-color: rgb(8, 162, 223);
+          color: white;
+        }
+
+a:hover{
+          color: rgb(16, 101, 212);
+        }
+
