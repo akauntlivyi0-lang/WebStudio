@@ -5,6 +5,10 @@
   color: rgb(0, 0, 0);
 }
 
+/* .navbar a:visited {
+  color: inherit;
+} */
+
 .button {
   background-color: rgb(8, 162, 223);
   color: white;
@@ -20,3 +24,45 @@ a:hover {
 body {
   font-family: 'Roboto';
 }
+.container1 {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.removed {
+padding: 0;
+margin: 0px;
+list-style: none;
+}
+
+.header {
+  padding: 25px 0;
+}
+
+.navbar {
+  display: flex;
+  gap: 95px;
+}
+
+.removed {
+display: flex;
+gap: 58px;
+}
+
+.container1 {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.address {
+  display: flex;
+  gap: 50px;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* зупинився на  */
