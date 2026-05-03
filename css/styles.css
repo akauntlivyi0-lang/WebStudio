@@ -12,15 +12,17 @@
 .button {
   background-color: rgb(8, 162, 223);
   color: white;
+  height: 30px;
 }
 
 a:hover {
   color: rgb(16, 101, 212);
 }
-#Raleway {
+.Raleway {
   font-style: normal;
   font-family: 'Raleway', sans-serif !important;
 }
+
 body {
   font-family: 'Roboto';
 }
@@ -64,5 +66,25 @@ gap: 58px;
 .container {
   padding-top: 20px;
   padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
-/* зупинився на  */
+
+.column {
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 1px;
+}
+
+.left {
+  display: flex;
+  justify-content: left;
+}
