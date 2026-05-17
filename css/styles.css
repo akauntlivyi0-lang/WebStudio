@@ -88,3 +88,35 @@ gap: 58px;
   display: flex;
   justify-content: left;
 }
+
+.footer-basis{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-address-map-link{
+  color: rgb(0, 0, 0);
+}
+
+.footer-logo
+{
+	display: inline-block;
+	color: #4d5ae5;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.footer {
+		padding: 10px 0px;
+    padding-left: 215px;
+	}
+
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
