@@ -1,5 +1,6 @@
-/*a[span="Studio"]{color:rgb(0, 0, 0);}*/
-
+a {
+  color: inherit;
+}
 
 .blackcolor {
   color: rgb(0, 0, 0);
@@ -20,6 +21,7 @@ a:hover {
 }
 
 .Raleway {
+  color: #4d5ae5;
   font-style: normal;
   font-family: 'Raleway', sans-serif !important;
 }
@@ -140,21 +142,38 @@ body {
 
 .main-second-section-item {
   display: block;
-  margin: 10px;
+  margin: 25px;
+  box-shadow: 5px 5px 0.4em rgb(0, 0, 0, 0.3);
 }
 
 .main-second-section-item:nth-child(1)::before {
-  background-image: url(../img/antenna\ 1.png);
+  background-image: url(../img/antenna.png);
 }
 
 .main-second-section-item:nth-child(2)::before {
-  background-image: url(../img/clock\ 1.png);
+  background-image: url(../img/clock.png);
 }
 
 .main-second-section-item:nth-child(3)::before {
-  background-image: url(../img/diagram\ 1.png);
+  background-image: url(../img/diagram.png);
 }
 
 .main-second-section-item:nth-child(4)::before {
-  background-image: url(../img/astronaut\ 1.png);
+  background-image: url(../img/astronaut.png);
+}
+
+.main-third-section-1img {
+  box-shadow: -8px 8px 0.4em rgb(0, 0, 0, 0.3);
+}
+
+.main-third-section-2img {
+  box-shadow: 0px 8px 0.4em rgb(0, 0, 0, 0.3);
+}
+
+.main-third-section-3img {
+  box-shadow: 8px 8px 0.4em rgb(0, 0, 0, 0.3);
+}
+
+.main-fourth-section-li {
+  box-shadow: 8px 8px 0.4em rgb(0, 0, 0, 0.3);
 }
